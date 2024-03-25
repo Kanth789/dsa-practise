@@ -4,7 +4,6 @@ function groupAnagram(array){
     for (let i = 0; i < array.length; i++) {
         let word = array[i];
         let sortedWord = word.split("").sort().join("");
-
         if (groupedAnagrams[sortedWord]) {
             groupedAnagrams[sortedWord].push(word);
         } else {

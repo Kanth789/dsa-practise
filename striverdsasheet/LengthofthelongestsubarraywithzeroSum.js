@@ -18,6 +18,6 @@ const LengthofthelongestsubarraywithzeroSum = (arr)=>{
     return count
 }
 
-let arr = [9,-3,3,-1,6,-5]
+let arr = [1, 2, 7, -4, 3, 2, -10, 9, 1]
 const result = LengthofthelongestsubarraywithzeroSum(arr)
 console.log(result)

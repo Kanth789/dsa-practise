@@ -17,3 +17,4 @@ for(let i=1;i<arr.length;i++)
 const arr = [8, 20, -2, 4, -6];
 InsertionSort(arr);
 console.log(arr);
+
